@@ -1,19 +1,17 @@
-EdgeBrowser demo
+Delphi4GoogleMaps
 ================
 
-This sample Delphi application demonstrates the use of the `TEdgeBrowser` VCL component.
+Esse é um exemplo de uso do google Maps em Delphi, sem a necessidade de comunicar via API, passando todos os parametros via URL.
 
-`TEdgeBrowser` is a successor to `TWebBrowser`. Where `TWebBrowser` uses the Internet Explorer WebBrowser control as its browser UI, `TEdgeBrowser` uses Edge browser's WebView2 control. Because of this `TEdgeBrowser` relies on:
+Esse exemplo foi criado modificando o sample padrão que vêm no Delphi chamado: EdgeBrowser
 
-1.  the Edge browser being installed
-2.  the WebView2 control loader DLL being available (part of the Microsoft WebView2 SDK)
+É tudo muito simples
 
-Please see the documentation for `TEdgeBrowser` for full details on how to get it up and running with the Edge (Chromium) browser and the WebView2 browser control
+1.  MemTable para guarda os locais digitados pelo usuario( com a possibilidade de gravar e recuperar esses dados de um arquivo xml )
+2.  A concatenação dos locais e sua passagem via URL para o TedgeBrowser exibir o resultado
 
-The sample includes event handlers for all of the `TEdgeBrowser` component's events and these mostly surface events of the WebView2 control itself.
+Use a vontade, melhore e qualquer coisa, vai atualizando agente aqui.
 
-WebView2 documentation can be found at:
-
-*   https://docs.microsoft.com/en-us/microsoft-edge/hosting/webview2
-*   https://docs.microsoft.com/en-us/microsoft-edge/hosting/webview2/gettingstarted
-*   https://docs.microsoft.com/en-us/microsoft-edge/hosting/webview2/reference-webview2
+Criei esse exemplo, pois precisava desenvolver algo desse tipo em meu ERP, e ai precisei fazer uma prova de conceito e como eu nao queria usar nenhuma 
+API Oficial, me pareceu bem adequada essa abordagem.
+Espero que seja util a você.
